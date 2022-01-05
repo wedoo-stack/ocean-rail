@@ -1,0 +1,37 @@
+platform: win32
+arch: x64
+
+[Error]
+message: Server not found: ftp://ftp.pcinfo.work:21@oceanrailftp%40oceanrail.pcinfo.work////app/Article.php
+
+[Stack Trace]
+Error: Server not found: ftp://ftp.pcinfo.work:21@oceanrailftp%40oceanrail.pcinfo.work////app/Article.php
+	at FtpTree.getServerFromUri ([ftp-kr]\out\src\ftptree.ts:141:8)
+	at FtpContentProvider.<anonymous> ([ftp-kr]\out\src\ftptree.ts:47:26)
+	at Generator.next (<anonymous>)
+	at c:\Users\Giota\.vscode\extensions\fftp.ftp-kr-1.4.1\out\ftptree.js:7:71
+	at new Promise (<anonymous>)
+	at __awaiter ([ftp-kr]\out\ftptree.js:3:12)
+	at FtpContentProvider.provideTextDocumentContent ([ftp-kr]\out\ftptree.js:35:16)
+	at D.$provideTextDocumentContent (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:95:69129)
+	at t._doInvokeHandler (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:99:13802)
+	at t._invokeHandler (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:99:13486)
+	at t._receiveRequest (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:99:12148)
+	at t._receiveOneMessage (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:99:10826)
+	at c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:99:8922
+	at u.fire (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:66:1712)
+	at r.fire (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:74:18942)
+	at c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:114:34341
+	at u.fire (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:66:1712)
+	at r.fire (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:74:18942)
+	at n._receiveMessage (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:74:23523)
+	at c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:74:21057
+	at u.fire (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:66:1712)
+	at w.acceptChunk (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:74:15770)
+	at c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:74:14900
+	at Socket.T (c:\Users\Giota\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:114:13813)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal\streams\readable.js:309:12)
+	at readableAddChunk (internal\streams\readable.js:284:9)
+	at Socket.Readable.push (internal\streams\readable.js:223:10)
+	at Pipe.onStreamRead (internal\stream_base_commons.js:188:23)
